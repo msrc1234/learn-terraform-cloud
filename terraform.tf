@@ -1,13 +1,16 @@
 terraform {
-
+/*
   cloud {
-    organization = "organization-name"
-
+    organization = "RamM"
+    
     workspaces {
-      name = "learn-terraform-cloud"
+      name = "learn-terraform-cloud2"
+      project = "Ram_Test1"
     }
-  }
 
+    
+  }
+*/
   required_providers {
     aws = {
       source  = "hashicorp/aws"
